@@ -31,6 +31,9 @@ document.getElementById("btn").onclick = function(){
   else if(random==5){
    document.querySelectorAll("img")[0].setAttribute("src","images/dice5.png");
   }
+  else if(random==6){
+   document.querySelectorAll("img")[0].setAttribute("src","images/dice6.png"); 
+  }
 
   if(random2==1){
    document.querySelectorAll("img")[1].setAttribute("src","images/dice1.png");
@@ -45,7 +48,11 @@ document.getElementById("btn").onclick = function(){
    document.querySelectorAll("img")[1].setAttribute("src","images/dice4.png");
   }
   else if(random2==5){
-    document.querySelectorAll("img")[1].setAttribute("src","images/dice5.png");
+   document.querySelectorAll("img")[1].setAttribute("src","images/dice5.png");
   }
+  else if(random==6){
+   document.querySelectorAll("img")[1].setAttribute("src","images/dice6.png"); 
+  }
+
 }
 
